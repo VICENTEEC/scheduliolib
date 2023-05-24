@@ -17,4 +17,7 @@ public class EmpleadoImpl extends RecursoImpl implements Empleado{
 	public void setApellidos(String apellidos) {
 		this.apellidos = apellidos;
 	}
+	public Tipo getTipo() {
+		return Tipo.Empleado;
+	}
 }
