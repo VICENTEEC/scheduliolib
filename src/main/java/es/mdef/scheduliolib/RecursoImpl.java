@@ -7,7 +7,8 @@ public abstract class RecursoImpl implements Recurso{
 	
 	public static enum Tipo {
 		Empleado,
-		Sala
+		Sala,
+		Material
 	}
 	
 	List<Servicio> servicios;
