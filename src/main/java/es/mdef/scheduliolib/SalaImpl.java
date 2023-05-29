@@ -3,15 +3,16 @@ package es.mdef.scheduliolib;
 
 public class SalaImpl extends RecursoImpl implements Sala{
 	
-	private String nombre;
+	private String nombreSala;
 
-	public String getNombre() {
-		return nombre;
+	public String getNombreSala() {
+		return nombreSala;
 	}
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
+	public void setNombreSala(String nombreSala) {
+		this.nombreSala = nombreSala;
 	}
+
 	public Tipo getTipo() {
 		return Tipo.Sala;
 	}
