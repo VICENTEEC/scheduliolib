@@ -2,6 +2,6 @@ package es.mdef.scheduliolib;
 
 public interface Material {
 
-	String getNombre();
+	String getNombreMaterial();
 	int getCantidad();
 }
